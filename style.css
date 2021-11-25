@@ -236,7 +236,7 @@ video {
   display: flex;
   overflow: auto;
   width: 100vw;
-  justify-content: flex-start;;
+  justify-content: center;
   scrollbar-color: var(--color-primary) white;
 }
 .work {
@@ -662,5 +662,8 @@ footer hr{
   }
   .feature-img {
     width: 30rem;
+}
+.works{
+  justify-content: center;
 }
 }
